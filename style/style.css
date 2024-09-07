@@ -1,0 +1,81 @@
+@font-face {
+  font-family: b-titr;
+  src: url('/font/Btitr.TTF');
+}
+.font{
+font-family: b-titr;
+font-size: 30px;
+color: rgba(255, 255, 255, 0.897);
+}
+
+.font1{
+font-family: b-titr;
+font-size: 15px;
+color: rgba(255, 255, 255, 0.897);
+}
+
+body{
+background-image: url('/img/back.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.rezome, .more {
+  display: flex;
+  padding: 1rem;
+  width: 350px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.603);
+  border-radius: 1rem;
+  flex-direction:column;
+  direction: rtl;
+  box-shadow: 2px 5px 20px 1px  rgba(0, 0, 0, 0.651) ;
+}
+
+
+.img1 {
+  width: 100%;
+  height: auto;
+  background-color: var(--primary-800);
+  border-radius: 0.5rem;
+  direction: ltr;
+}
+
+.div0{
+width: 300px;
+color: rgb(230, 230, 230);
+font-family: b-titr;
+font-size: 25px;
+padding-right: 20px;
+direction: rtl;
+margin-left: 120px;
+
+
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 100%;
+  margin: auto;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.footer{
+text-align: center;
+font-family: b-titr;
+font-size: 20px;
+}
